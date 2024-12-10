@@ -1,0 +1,115 @@
+.task-card {
+    padding: 2em;
+    background-color: white;
+    box-shadow: -5px 5px 25px 5px rgba(0,0,0,.1);
+    margin-top: 2em;
+    width: 350px;
+  }
+
+  .input-title {
+    background-color: #fff;
+    display: block;
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+    margin-top: 2px;
+    width: 100%;
+  }
+
+  .input-content {
+    background-color: #fff;
+    display: block;
+    margin-top: 1.5em;
+    color: black;
+
+    font-size: 1em;
+    width: 100%;
+  }
+
+  .task-card--content {
+    display: block;
+    margin-top: 1.2em;
+    margin-bottom: 45px;
+    text-align: left;
+    margin-left: 2px;
+    font-size: 1em;
+  }
+
+  .task-card--heading {
+    display: block;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 2px;
+    font-size: 1.5em;
+  }
+
+  .button-secondary {
+    display: flex;
+    margin-top: 5px;
+    width: 100px;
+    background-color: #b7b7b7;
+    color: black;
+    margin-bottom: 5px;
+  }
+
+  .button-complete, .button-complete:hover {
+    display: flex;
+    margin-top: 5px;
+    width: 120px;
+    align-self: end;
+    background-color: white;
+    color: black;
+    outline: 3px solid #2b6d6e;
+  }
+
+  .button-complete:focus {
+    outline: none;
+  }
+
+  .button-delete {
+    width: 100px;
+    text-align: left;
+    background-color: #494848;
+  }
+
+  .task-card--footer {
+    display: flex;
+    margin-top: 2em;
+    flex-direction: column;
+  }
+
+  .button-wrapper {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .button-complete--inverted {
+    display: flex;
+    margin-top: 5px;
+    width: 120px;
+    align-self: end;
+    background-color: #2b6d6e;
+    color: white;
+    outline: 3px solid #2b6d6e;
+  }
+
+  .button-complete--inverted:focus {
+    outline: none;
+  }
+
+  .error-message {
+    color: red;
+    text-align: left;
+    margin-top: 5px;
+  }
+
+  .visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
